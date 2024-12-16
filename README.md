@@ -2,8 +2,8 @@
 npm install prisma --save-dev
 npx prisma init --datasource-provider postgresql
 npx prisma generate
-
-
+npm i localtunnel
+lt --port 3000
 
 ```
 
@@ -14,4 +14,5 @@ npx prisma generate
 3. Neon: https://console.neon.tech
 4. Clerk: https://clerk.com/
 5. Shadcn: https://ui.shadcn.com/docs
+https://docs.svix.com/receiving/verifying-payloads/how
 ```
